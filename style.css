@@ -1,0 +1,792 @@
+body,
+html{
+  padding:0;
+  margin:0;
+  width: 100%;
+  height: 100%;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+}
+
+a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+div{
+  padding: 0;
+  margin: 0;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap:49px;
+}
+a{
+    color:#444444;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+.header-container{
+    /* border: 5px solid red; */
+   z-index: 99999;
+}
+.header-top{
+    /* border: black solid 5px; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+.linker{
+    max-width: 700px;
+    /* border: blue 5px solid ; */
+    
+}
+.get{
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    background-color: #0594FF;
+    color:#ffffff;
+    font-weight: 700;
+}
+.logo{
+    /* border: black 5px solid ; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.logo img{
+    max-width: 207px;
+}
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.logo-text .blue {
+  color: #0594FF; /* blue para sa O. */
+}
+
+.logo-text .black {
+  color: #000; /* black para sa Consultation */
+}
+.header-bottom{
+    /* border: green 5px solid; */
+    padding-bottom: 420px;
+}
+.left-bottom{
+    max-width: 581px;
+    margin-left: 135px;
+    margin-top: 220px;
+    /* border: black 5px solid; */
+}
+.meet{
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 26px;
+} 
+.meet::after {
+    content: '';
+    display: inline-block;  
+    width: 63px;
+    height: 2px;
+    background-color: #444444;
+    margin-left: 8px; 
+    vertical-align: middle; 
+}
+
+
+.our {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 300;     
+  font-size: 64px;         
+  color: #444444;         
+  margin: 0;
+  line-height: 1.2;
+}
+
+.doc {
+  display: block;     
+  font-weight: 500;   
+  font-size: 80px;
+  color: #0094FF;    
+}
+.online {
+  display: block;     
+  font-weight: 500;   
+  font-size: 60px;
+  color: #0094FF;     
+}
+.he{
+    max-width: 487px;
+    color:#878787;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 37px;
+}
+.btn1{
+    background-color:#0594FF;
+    width: 245px;
+    height: 57px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.class-btns{
+    display: flex;
+    gap: 30px;
+}
+.btn2{
+    width: 150px;
+    height: 57px;
+    background-color:#fff;
+    border: #878787 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #878787;
+    margin-top: 40px;
+}
+
+.right-bottom {
+    /* border: black 5px solid; */
+    position: absolute;
+    width: 610px;
+    height: 1040px;
+    right: 0;
+    top: 0px;
+    background: linear-gradient(180deg, #CCE8FF 0%, #E6F3FF 100%);
+    z-index: -1;
+     
+}
+.right-bottom img{
+    position: relative;
+    width: 781px;
+    left:-195px;
+    top: 100px;
+}
+
+
+
+/* OUR STATS */
+.our-stats{
+    /* border: blue 5px solid ; */
+    display: flex;
+    justify-content: center;
+
+}
+.stats-container{
+    /* border: red 5px solid; */
+    max-width: 1116px;
+    padding: 20px 162px 60px 162px;
+}
+.stats{
+    max-width: 701px;
+    /* border: red 5px solid; */
+    font-family:"Gilroy", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+.and{
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: center;
+    color: #878787;
+    /* border: black 5px solid; */
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.stats-top{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+
+}
+.stats-bottom{
+    display: flex;
+    /* border: #0594FF 5px solid; */
+    max-width: 1116px;
+    justify-content: center;
+    gap: 40px;
+}
+.patient{
+    /* border: black 5px solid; */
+    text-align: center;
+    width: 200px;
+}
+p{
+    margin: 0;
+}
+.num{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #878787;
+}
+.loc,
+.rate,
+.cunsultation{
+    text-align: center;
+    width: 200px;
+    font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ABOUT US */
+.about-us{
+    /* border: red 5px solid ; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.about-container{
+    /* border: black 5px solid; */
+    display: flex;
+    width: 1146px;
+
+    
+}
+.about-left{
+    /* border: blueviolet 5px solid; */
+    position: absolute;
+    top: 50px;
+    z-index: 9999;
+
+}
+.about-right{
+    /* border: black 5px solid; */
+    width: 754px;
+    position: absolute;
+    right:0;
+}
+
+.matanda img{
+    width:754px;
+    z-index: -1;
+}
+.dot img {
+    width:100px;
+    position: absolute;
+    bottom:-40px;
+    left: -55px;
+    z-index: -1;
+}
+.us{
+    color: #444444;
+    font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+.residence{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 510px;
+    color: #878787;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    z-index: 9999;
+
+}
+.read{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dot{
+    width: 100px;
+}
+.bg-white{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 592px;
+    height: 389px;
+    z-index: 9999;
+    top: 50px;
+}
+
+.read-arrow {
+  width: 16px; /* adjust size as needed */
+  height: auto;
+}
+
+/* HOW IT WORKS */
+.how {
+  margin-top: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.how-container {
+  width: 1146px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-title {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  color: #444444;
+  margin-bottom: 20px;
+}
+
+.how-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #878787;
+  margin-bottom: 60px;
+}
+
+.bottom-how {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.acc {
+  width: 264px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 40px 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  padding-top: 10px;
+  
+}
+.acc:first-child {
+  border-bottom: 3px solid #0094FF; /* Blue line */
+}
+
+.acc:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+.bap {
+  font-size: 80px;
+  font-weight: 800;
+  color: #e0e0e0; /* light gray */
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+
+
+.create {
+  font-size: 20px;
+  font-weight: 700;
+  color: #444444;
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  text-align: left;    
+  display: inline-block; 
+  margin-top: -40px;
+  margin-bottom: 5;
+}
+.create span {
+  display: block;   
+}
+
+
+.latte {
+  font-size: 16px;
+  font-weight: 400;
+  color: #878787;
+  text-align: center;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;    
+  display: inline-block; 
+}
+
+/* Sections Title */
+.section-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 10px;
+  color: #444;
+}
+.section-sub {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Doctors */
+.best-doctors {
+  padding: 80px;
+  background: #fff;
+}
+.doctor-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.doctor-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.doctor-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.doctor-card span {
+  font-size: 14px;
+  color: #888;
+}
+.doctor-card p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-blue {
+  background: #0594FF;
+  color: #fff;
+  padding: 9px 17px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  box-sizing: border-box; 
+  margin-right: 4%;
+  
+}
+.btn-outline {
+  border: 1px solid #aaa;
+  background: #fff;
+  padding: 10px 20px;  
+  border-radius: 5px;
+   width: 200px;
+  box-sizing: border-box;
+}
+.doctor-rating {
+  font-size: 20px;   /* laki ng stars */
+  color: gold;       /* kulay ng stars */
+  margin: 8px 0;     /* space sa taas/baba */
+  text-align: left;  /* align left */
+}
+.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: gray;  /* kulay kapag hindi active */
+  border: none;
+}
+
+/* Active dot */
+.slick-dots li.slick-active button {
+  background: #0594FF;
+}
+/* spacing sa ilalim ng carousel */
+.doctors-carousel {
+  margin-bottom: 20px;   /* puwedeng adjust */
+}
+
+
+/* Box container */
+.container-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 40px 40px;
+  background-color: #f5f5f5; /* kulay ng box */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left; /* para naka-center ang title at subtitle */
+}
+
+/* Section titles */
+.clients .section-title {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.clients .section-sub {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* Clients carousel cards */
+.clients-carousel {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual client card */
+.client-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 80px;
+}
+
+.client-card h4 {
+  margin-bottom: 20px;
+}
+
+.client-card p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.client-card .client-name {
+  color: #555;
+}
+
+/* Optional: responsive carousel */
+@media (max-width: 768px) {
+  .clients-carousel {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* Client card stars */
+.client-rating {
+  color: #f0b429;         
+  font-size: 18px;         
+  margin: 20px 0;          
+}
+
+
+.subscribe-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1100px;
+  background-color: #0594FF;
+  padding: 60px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: auto;
+}
+
+/* Small label at the top */
+.subscribe-label {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;  /* highlight color for label */
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+/* Main title */
+.subscribe-title {
+  font-size: 2rem;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* Paragraph text */
+.subscribe-text {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+  color: white;
+  margin-left: 50px;
+}
+
+/* Button styling */
+.btn-white {
+  background-color: #0594FF;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-white:hover {
+  background-color: #0594FF;
+  color: #fff;
+}
+
+.subscribe-content {
+  text-align: left; 
+  max-width: 70%; 
+}
+/* Wrapper para sa button para ma-left align */
+.subscribe-btn-wrapper {
+  display: flex;
+  justify-content: flex-end; /* button sa left */
+  margin-top: 50px; /* spacing sa ilalim ng text */
+  margin-right: 50px;
+  align-items: flex-start; 
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  color: #000;
+  font-family: "Gilroy", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Main footer container */
+.footer-main {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px 40px 20px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Left column: Logo & description */
+.footer-left {
+  flex: 1 1 300px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-left p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:gray;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Right columns */
+.footer-columns {
+  display: flex;
+  flex: 2 1 700px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+
+  gap: 60px;
+}
+
+.footer-column h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block; /* make sure it's vertical */
+}
+
+.footer-column ul li {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: list-item; /* default vertical item */
+}
+
+
+.footer-column ul li:hover {
+  color: #0594FF;
+}
+
+/* Footer bottom bar */
+.footer-bottom-bar {
+  background-color: #0594FF;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
+.logo-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+  margin: 0;
+  
+}                               
+
+.logo-o {
+  color: #0594FF; /* blue color for O. */
+}
+
+.logo-consultation {
+  color: #000000; /* black color for Consultation */;
+}
